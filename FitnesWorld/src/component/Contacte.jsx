@@ -5,6 +5,7 @@ import { toast, ToastContainer } from "react-toastify";
 
 
 
+
 function Contacte(){
     
 
@@ -18,7 +19,7 @@ function Contacte(){
         e.preventDefault();
         setloding(true)
         try{
-            const {data} = await axios.post("http://localhost:4000/send/mail",
+            const {data} = await axios.post(`${import.meta.env.EMAIL_API}/send/mail`,
                 {
                     uname,
                     mobile,
