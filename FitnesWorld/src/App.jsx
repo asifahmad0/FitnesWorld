@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import Hero from './component/Hero'
 import Feature from './component/Feature'
 import Price from './component/Price'
@@ -10,16 +10,14 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <main className='overflow-x-hidden'>
-        <Hero />
-        <Feature/>
-        <BMICalculator />
-        <Price />
-        <Contacte />
-        
-      </main>
-    </>
+    <main className="overflow-x-hidden">
+      <Hero />
+      <Feature />
+      <BMICalculator />
+      <Price />
+      <Contacte />
+      <Footer />
+    </main>
   )
 }
 
