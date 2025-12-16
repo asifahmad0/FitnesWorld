@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Hero from './component/Hero'
 import Feature from './component/Feature'
-import Price from './component/Price'
+import Price from './component/Price' 
 import Contacte from './component/Contacte'
 import Footer from './component/Footer'
 import BMICalculator from './component/BMICalculator'
