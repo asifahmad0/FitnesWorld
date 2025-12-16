@@ -1,6 +1,5 @@
 import React from "react";
 import { Check } from "lucide-react";
-import { Link } from "react-router-dom";
 import priceIMG from "../assets/pricing.jpg"
 
 function Price() {
