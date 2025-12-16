@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import Hero from './component/Hero'
 import Feature from './component/Feature'
 import Price from './component/Price' 
