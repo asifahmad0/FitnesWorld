@@ -19,7 +19,7 @@ function Contacte(){
         e.preventDefault();
         setloding(true)
         try{
-            const {data} = await axios.post(`http://localhost:4000/send/mail`,
+            const {data} = await axios.post(import.meta.env.VITE_EMAIL_URL,
                 {
                     uname,
                     mobile,
