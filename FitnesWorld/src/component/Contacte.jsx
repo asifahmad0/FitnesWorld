@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import CImg from "../assets/contact.jpg";
 import axios from "axios";
 import { toast, ToastContainer } from "react-toastify";
